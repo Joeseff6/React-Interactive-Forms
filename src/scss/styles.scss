@@ -1,3 +1,5 @@
+@use "css-reset";
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -9,4 +11,8 @@ html {
 
 body {
   min-height: 100%;
+}
+
+.wrapper {
+  background-color: pink;
 }
