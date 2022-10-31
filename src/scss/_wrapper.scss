@@ -1,3 +1,5 @@
+@use "variables";
+
 .wrapper {
   margin: 2rem;
   padding: 2rem;
@@ -5,4 +7,5 @@
   min-height: 55rem;
   border: 2px solid black;
   border-radius: 10px;
+  background-color: variables.$background-color-form;
 }
