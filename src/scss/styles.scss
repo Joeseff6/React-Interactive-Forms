@@ -1,18 +1,16 @@
 @use "css-reset";
+@use "app";
+@use "wrapper";
 
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
 html {
-  height: 100%;
+  height: 100vh;
   font-size: 62.5%;
 }
 
-body {
-  min-height: 100%;
-}
-
-.wrapper {
-  background-color: pink;
+body, .App {
+  min-height: 100vh;
 }
