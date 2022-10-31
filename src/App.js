@@ -1,7 +1,9 @@
+import WelcomeView from "./components/WelcomeView";
+
 function App() {
   return (
     <div className="App">
-      <header>This is a form</header>
+      <WelcomeView />
     </div>
   );
 }
