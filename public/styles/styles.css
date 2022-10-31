@@ -60,7 +60,12 @@ table {
 }
 
 .wrapper {
-  background-color: pink;
+  margin: 2rem;
+  padding: 2rem;
+  width: clamp(30rem, 90%, 80rem);
+  min-height: 55rem;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 *, *::after, *::before {
