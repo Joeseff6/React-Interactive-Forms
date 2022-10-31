@@ -47,6 +47,15 @@ table {
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-header {
+  text-align: center;
+  font-size: 2.2rem;
 }
 
 *, *::after, *::before {
@@ -60,6 +69,10 @@ html {
 
 body, .App {
   min-height: 100vh;
+}
+
+button {
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

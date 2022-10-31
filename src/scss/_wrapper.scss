@@ -8,4 +8,8 @@
   border: 2px solid black;
   border-radius: 10px;
   background-color: variables.$background-color-form;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
