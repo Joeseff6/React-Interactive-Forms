@@ -1,9 +1,12 @@
 import WelcomeView from "./components/WelcomeView";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     <div className="App">
-      <WelcomeView />
+      <Wrapper>
+        <WelcomeView />
+      </Wrapper>
     </div>
   );
 }
