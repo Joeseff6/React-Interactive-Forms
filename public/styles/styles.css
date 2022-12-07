@@ -43,15 +43,24 @@ table {
   margin: 2rem;
   padding: 2rem;
   width: clamp(30rem, 90%, 80rem);
-  min-height: 55rem;
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
 }
 
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcome-header {
   text-align: center;
   font-size: 2.2rem;
+}
+.welcome-header h1 {
+  margin: 0;
 }
 
 *, *::after, *::before {
