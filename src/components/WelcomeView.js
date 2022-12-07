@@ -1,6 +1,6 @@
 const WelcomeView = () => {
   return (
-    <>
+    <section className="welcome-section">
       <header className="welcome-header">
         <h1>Welcome!</h1>
         <p>The following is a set of forms that will ask basic questions about yourself</p>
@@ -11,7 +11,7 @@ const WelcomeView = () => {
         </p>
       </header>
       <button className="start-button"> Let's begin!</button>
-    </>
+    </section>
   );
 };
 
