@@ -10,7 +10,7 @@ const WelcomeView = () => {
           not be written to a database!
         </p>
       </header>
-      <button className="start-button"> Let's begin!</button>
+      <button type="button" className="start-button"> Let's begin!</button>
     </section>
   );
 };
